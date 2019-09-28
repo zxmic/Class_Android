@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyApplicationnull</string>
+    <string name="Button_true">true</string>
+    <string name="Button_false">false</string>
+    <string name="Button_next">next</string>
+    <string name="Button_pre">pre</string>
+    <string name="Q1">天津是个美丽的城市吗？</string>
+    <string name="Q2">2019年是建国70周年吗？</string>
+    <string name="Q3">2019年是天职师大建校40周年吗？</string>
+    <string name="Q4">撒贝宁是常驻央视吗？</string>
+    <string name="true_toast">that is true</string>
+    <string name="false_toast">that is false</string>
+</resources>
