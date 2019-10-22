@@ -4,10 +4,23 @@
     <string name="Button_false">false</string>
     <string name="Button_next">next</string>
     <string name="Button_pre">pre</string>
-    <string name="Q1">天津是个美丽的城市吗？</string>
-    <string name="Q2">2019年是建国70周年吗？</string>
-    <string name="Q3">2019年是天职师大建校40周年吗？</string>
-    <string name="Q4">撒贝宁是常驻央视吗？</string>
+    <string name="Q1">1.天津是个美丽的城市吗？</string>
+    <string name="Q2">2.2019年是建国70周年吗？</string>
+    <string name="Q3">3.2019年是天职师大建校40周年吗？</string>
+    <string name="Q4">4.撒贝宁是常驻央视吗？</string>
+    <string name="none_question">没有找到题目</string>
     <string name="true_toast">that is true</string>
     <string name="false_toast">that is false</string>
+    <string name="ask">确定查看答案吗？</string>
+    <string name="look">查看答案</string>
+    <string name="judgment_toast">Cheating! is wrong.</string>
+
+
+    <string name="four_Answers_01">以下不可用为c语言标识符的是（ ）</string>
+    <string name="four_Answers_02">以下不可用为c语言标识符的是（ ）</string>
+    <string name="four_Answers_03">以下不可用为c语言标识符的是（ ）</string>
+    <string name="four_Answers_04">以下不可用为c语言标识符的是（ ）</string>
+    <string name="four_Answers_05">以下不可用为c语言标识符的是（ ）</string>
+    <string name="four_Answers_06">以下不可用为c语言标识符的是（ ）</string>
+
 </resources>

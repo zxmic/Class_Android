@@ -13,75 +13,71 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="left"
             android:layout_weight="1">
-            <Button
-                android:id="@+id/pre_button"
-                android:layout_width="wrap_content"
+
+            <ImageView
+                android:id="@+id/imageView_left"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/origin"
-                android:layout_gravity="left"
-                android:text="@string/Button_pre"
-                android:textColor="@color/green"
-                android:textSize="20dp" />
-
-
+                app:srcCompat="@drawable/arrow_left" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="right"
             android:layout_weight="1">
 
 
-            <Button
-                android:id="@+id/next_button"
-                android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/ImageView_right"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:background="@color/pink"
-                android:keepScreenOn="false"
-                android:text="@string/Button_next"
-                android:textColor="@color/green"
-                android:textSize="20dp" />
+                app:srcCompat="@drawable/arrow_right" />
+
+
+
 
         </LinearLayout>
 
     </LinearLayout>
 
-
-
-
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_weight="6">
+
         <TextView
             android:id="@+id/question_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="24dp"
-            android:textSize="50dp"
+            android:textSize="30dp"
             android:textColor="@color/red"/>
+
+
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="left">
+
+
+
 
             <Button
                 android:id="@+id/button_true"
@@ -91,7 +87,14 @@
                 android:padding="24dp"
                 android:text="@string/Button_true"
                 android:textColor="@color/red"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:layout_weight="2"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
 
 
             <Button
@@ -102,10 +105,30 @@
                 android:padding="24dp"
                 android:text="@string/Button_false"
                 android:textColor="@color/red"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:layout_weight="2"/>
 
 
         </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/sureToAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/look"/>
 
     </LinearLayout>
 
